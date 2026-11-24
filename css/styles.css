@@ -11749,7 +11749,6 @@ html {
 }
 
 .a {
-  color: black;
+  color: var(--bs-gray-900);
   text-decoration: none;
-  
 }
