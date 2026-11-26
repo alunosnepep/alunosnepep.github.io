@@ -11761,10 +11761,14 @@ html {
     max-width: 90%;
 }
 
-/* .pdf {
-    display: block;
-    margin: 0 auto;
-    width: 700px;
-    height: auto;
-    max-width: 90%;
-} */
+/* Centralização somente em celulares */
+@media (max-width: 991px) {
+    .mobile-center {
+        text-align: center !important;
+    }
+
+    .mobile-center .badge {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
