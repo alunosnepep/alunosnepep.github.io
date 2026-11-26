@@ -11752,3 +11752,19 @@ html {
   color: var(--bs-gray-900);
   text-decoration: none;
 }
+
+.pdf {
+    display: block;
+    margin: 40px auto 0 auto;
+    width: 700px;
+    height: auto;
+    max-width: 90%;
+}
+
+/* .pdf {
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+    height: auto;
+    max-width: 90%;
+} */
